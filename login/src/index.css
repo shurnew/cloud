@@ -1,0 +1,15 @@
+
+
+/* 리스트 형태 상세보기 */
+.content_list_detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 18px;
+    width: 100%;
+}
+
+.content_list_detail + .content_list_detail {
+    margin-top: 8px;
+}
+
